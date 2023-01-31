@@ -1,9 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Images from './components/images-grid/Images';
+import { ImagesProvider } from './context/images.provider';
+import { LoaderProvider } from './context/loader.provider';
 
 function App() {
   return (
-    <div className="App">
+    <LoaderProvider>
+      <ImagesProvider>
+        <Images />
+      </ImagesProvider>
+    </LoaderProvider>
+    /* <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,7 +26,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div> */
   );
 }
 
