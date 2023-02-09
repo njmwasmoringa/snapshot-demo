@@ -8,9 +8,11 @@ function App() {
   return (
     <LoaderProvider>
       <ImagesProvider>
+      
         <Images />
       </ImagesProvider>
     </LoaderProvider>
+
     /* <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
