@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {Search} from './search/search'
+import {Search} from './components/search/search'
 import Images from './components/images-grid/Images';
 import { ImagesProvider } from './context/images.provider';
 import { LoaderProvider } from './context/loader.provider';
