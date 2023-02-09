@@ -1,0 +1,33 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800&family=Nanum+Myeongjo&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Nanum Myeongjo', serif;
+    color:#1D3461;
+   
+}
+input{
+   background-color: #F8F8F8;
+   border-radius:5px;
+   outline: none;
+}
+h2{
+    font-weight:800;
+    margin-left:70px;
+    font-size :40px;
+}
+.buttons{
+ 
+    margin-top:15px;
+}
+button{
+    background-color:#1D3461;
+    color:white;
+    outline: none;
+    margin:5px;
+    
+}
+.search{
+    margin-left:450px;
+}
+
