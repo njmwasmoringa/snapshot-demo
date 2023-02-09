@@ -12,7 +12,9 @@ input{
    outline: none;
 }
 h2{
-    font-weight:800
+    font-weight:800;
+    margin-left:70px;
+    font-size :40px;
 }
 .buttons{
  
@@ -22,6 +24,10 @@ button{
     background-color:#1D3461;
     color:white;
     outline: none;
+    margin:5px;
     
+}
+.search{
+    margin-left:450px;
 }
 

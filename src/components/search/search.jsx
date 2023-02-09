@@ -44,14 +44,7 @@ export const Search = () => {
   
   return (
     <>
-    <div className="buttons">
-     
-        {defaultCategories.map((category) => {
-          <button key={category.id}  onClick={() => searchItem(category.name)}>
-            {category.name}
-          </button>;
-        })}
-      </div>
+    <section className="search">
       <form>
         <h2>
           <i>SnapShot</i>
@@ -63,13 +56,23 @@ export const Search = () => {
           value={q}
           onChange={handleChange}
           name="search"
-        />{" "}
+        />
         &nbsp;
         <button type="button" onClick={() => searchItem(q)}>
           Search
         </button>
       </form>
-      
+      <div className="buttons">
+     
+        {defaultCategories.map((category) =>
+          <button key={category.id}  onClick={() => searchItem(category.name)}>
+            {category.name}
+          </button>
+          
+        )}
+      </div>
+      </section>
     </>
   );
+  
 };
