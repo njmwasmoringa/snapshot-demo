@@ -9,6 +9,7 @@ export default function Pagination() {
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPages, setTotalPages] = useState(0);
     const [pages, setPages] = useState([]);
+    
     const { images, setImages } = useContext(ImagesContext);
     const { setLoading } = useContext(LoaderContext);
     const imagesAPI = new ImagesAPI();
