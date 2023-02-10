@@ -43,9 +43,8 @@ export const Search = () => {
 
   
   return (
-    <>
     <section className="search">
-      <form>
+      <div><form>
         <h2>
           <i>SnapShot</i>
         </h2>
@@ -70,9 +69,8 @@ export const Search = () => {
           </button>
           
         )}
-      </div>
+      </div></div>
       </section>
-    </>
   );
   
 };

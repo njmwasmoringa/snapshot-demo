@@ -28,6 +28,7 @@ button{
     
 }
 .search{
-    margin-left:450px;
+    display: flex;
+    justify-content: center;
 }
 
